@@ -1,0 +1,35 @@
+# Ignore compiled binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment-specific files
+.env
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build output and cache
+build/
+cache/
+
+# Ignore personal IDE settings
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and media files (adjust as needed)
+data/
+media/
